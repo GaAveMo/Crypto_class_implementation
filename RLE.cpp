@@ -3,7 +3,7 @@
 
 string RLE::dchange()
 {
-    char a[16] = { 'a','b','c','d','e','f','g','h'};
+    char a[8] = { 'a','b','c','d','e','f','g','h'};
     string result = "";
     for (int i = 0; i < s.length(); i++) {
         int k = 1;
@@ -21,7 +21,7 @@ string RLE::dchange()
 
 string RLE::nchange()
 {
-    char a[16] = { 'a','b','c','d','e','f','g','h'};
+    char a[8] = { 'a','b','c','d','e','f','g','h'};
     string d = dchange();
     string result = "";
     int k, l = 0;
